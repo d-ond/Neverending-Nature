@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Death
+  - TopWall
+  - Target
+  - Goal
+  - Wall
+  - Scorer
+  - Logic
   layers:
   - Default
   - TransparentFX

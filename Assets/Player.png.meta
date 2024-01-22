@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3a43fba3023a9a438c8aee9d6e78113
+guid: c5b9590895369d7419a5fb8a32884bf6
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -40,15 +40,15 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 192
