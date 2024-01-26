@@ -100,6 +100,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
+  object1Prefab: {fileID: 1964033484360904289}
+  object2Prefab: {fileID: 1964033484360904289}
+  object3Prefab: {fileID: 1964033484360904289}
+  object4Prefab: {fileID: 1964033484360904289}
+  object5Prefab: {fileID: 1964033484360904289}
 --- !u!50 &-3331853798117199762
 Rigidbody2D:
   serializedVersion: 4

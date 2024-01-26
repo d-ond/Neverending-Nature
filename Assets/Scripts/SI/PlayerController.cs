@@ -10,7 +10,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject bullet;
     public GameObject cursor;
-    public Boolean isBulletActive = false;
+    public bool isBulletActive = false;
+
+    public AudioSource shoot;
 
     private void Start()
     {
@@ -23,12 +25,23 @@ public class PlayerController : MonoBehaviour
         rb.transform.Translate(Vector3.right * dir * moveSpeed * Time.deltaTime);
 
         if (Input.GetMouseButtonDown(0))
-        {
+        {    
             if (!isBulletActive ) { 
                 Instantiate(bullet, cursor.transform.position, cursor.transform.rotation);
                 isBulletActive = true;
+                shoot.Play();
             }
             
         }
+        /*if (Input.GetMouseButtonDown(1))
+        {
+            if (!isBulletActive)
+            {
+                Instantiate(bullet, cursor.transform.position, cursor.transform.rotation);
+                bullet.gameObject.GetComponent<Bullet>().SetPrimerBullet(true);
+                isBulletActive = true;
+            }
+
+        }*/
     }
 }
