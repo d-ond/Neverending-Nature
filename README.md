@@ -1,31 +1,37 @@
-# PSGJ_2401
-https://itch.io/jam/pirate
+# Neverending Nature
+Neverending Nature is a puzzle/score attack game that gives you a time limit to rack up the highest score to complete the level in story mode, or for the high score table in score attack mode. Use your wits to create as many combos as you can with the bullets striking the highest value target!
 
-# Current idea for theme
-- Nature overtaking metal, we are either clearing or adding to nature
-- Goal is to either spread further or to combo a section to clear
+Created using Unity for the Pirate Software Game Jam 14
 
-## To do:
-- GDD draft
-- Refine ideas
+# Player Experience:
+The player will have a set amount of time to score as many points as possible. They can do this by setting up and comboing bubbles in the right directions to hit the high scoring targets which will greatly increase the score. The goal is to facilitate lining up a shot to get more points.
 
-## Current mechanics being tested:
-- Combo/matching game systems
+This game is designed to be played on Windows PC. 
 
-Current progress here is decent, creating a Tetris-like system of a grid. This can be extended to a different system
+## Gameplay Overview: 
+The player is able to move left and right in a set amount, with the ability to aim their cursor to an angle with their mouse. The player can shoot one bullet at a time, which will bounce across walls. The bullet will persist until it goes off screen, hits the bottom, or if it hits a target. Once hit, the bullet will destroy and a “scorer” projectile will take its place and speed, moving in the same direction. Hitting a target with a scorer will further spread the bullet outwards. The aim is to score high by comboing with the targets. By carefully aiming with white bullets and using creative angles to bounce their shot, the player is rewarded with “blue bullets” upon a successful hit. When the target is broken with blue bullets, the player is rewarded with an extra combo projectile and double the points if it hits a goal. The point is to hit as many targets as possible and to spread as many projectiles as possible. 
 
-- dodging hazards
+## Inspiration:
+- Mona’s Potion Minigame - Shovel Knight: Hitting a target to split it into chunks, each one aiming to hit the score. 
 
-Similar to top-down shooters and dodging bullets, but in this case it comes from the top of the screen
+- Space Invaders: A game designed to be played over and over - the general concept of a “shoot ‘em up” came up as a possible way to incorporate “spreading”. 
 
-- avoiding being pulled in
+- Bust a Move/Puzzle Bobble: Having a cursor to move and shoot, original concept regarding a match-3 puzzle. The walls and bouncing were added with Space Invaders. 
 
-Same as above, thinking of the final boss in Shovel Knight Showdown because that's the most recent thing on the brain. There's also the target mini-game -> line them up and clear in one go
+## Mechanics:
+- Projectiles: Hitting one target with a projectile will do different things - either continue with the initial direction and bounce off a wall, or with a well-timed shot it will spread outwards upon hitting a target to reward more points .
+- Bouncing: The player’s initial projectile can bounce, so the player is encouraged to line up shots with the movement of the projectile to hit targets. However, once a target is hit, it can only hit a goal. More bounces score points exponentially, but if the bullet continues to bounce the player is unable to shoot another one. Thus, they are encouraged to line up shots. 
+- Combos: Hitting more targets with scorer projectiles will up the score. The player wants to spread outwards and hit as many targets as they can into the goal.
 
-- wall bounces
+## Software Used:
+- Unity: Main game engine
+- Visual Studio 2022: Scripting program
+- PICO-8: Sound
+- Beepbox.com: Sound and music
+- Aseprite: Sprite Work / Art
 
-Easy to implement, but trickiness comes from determining which grid coordinate to end the movement
 
-- grid data structure
 
-implemented via Tetris clone, but in that case it is the entire game. How does it work with a character that can move and shoot?
+
+
+
