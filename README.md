@@ -3,6 +3,8 @@ Neverending Nature is a puzzle/score attack game that gives you a time limit to 
 
 Created using Unity for the Pirate Software Game Jam 14
 
+Play the game here: https://dandyo.itch.io/neverendingnature
+
 # Player Experience:
 The player will have a set amount of time to score as many points as possible. They can do this by setting up and comboing bubbles in the right directions to hit the high scoring targets which will greatly increase the score. The goal is to facilitate lining up a shot to get more points.
 
